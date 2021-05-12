@@ -1,7 +1,7 @@
 
 module "network" {
   source  = "app.terraform.io/ascensiontech/network/google"
-  version = "2.5.0"
+  version = "3.2.2"
   # insert required variables here
   network_name   = "gaurav-network"
   project_id     = "var.project" 
